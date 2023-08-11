@@ -136,6 +136,6 @@ function back_to_hompage(event){
 
 // clcik events
 search.addEventListener('click',search_N_Display);
-mealSection.addEventListener('click ',addToFavourites);
+mealSection.addEventListener('click',addToFavourites);
 mealSection.addEventListener('click',getRecipeDetails);
 recipe_detail.addEventListener('click',back_to_hompage);
