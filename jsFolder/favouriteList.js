@@ -65,7 +65,7 @@ function fetchFavourites(){
 
         h2.innerHTML=`<h2 class="text-danger mx-auto">OOPS!! Your Favourite List is Empty</h2>
 
-        <a href="homePage.html" class="fs-5 text-decoration-none"><p class="text-center my-5">Homepage</p></a>`;
+        <a href="index.html" class="fs-5 text-decoration-none"><p class="text-center my-5">Homepage</p></a>`;
 
         favourites.append(h2);
 
