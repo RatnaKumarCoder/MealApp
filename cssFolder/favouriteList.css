@@ -15,7 +15,7 @@
     overflow-y: scroll;
 }
 
-/* styling elements each item in avourite container */
+/* styling elements for each item in favourite container */
 
 /* each item div */
 #item{
@@ -34,6 +34,7 @@
     width: 300px !important;
 }
 
+/* making the image fluid for the item image container */
 #image{
     height: 100% !important;
     width: 100% !important;

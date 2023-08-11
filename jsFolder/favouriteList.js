@@ -11,7 +11,7 @@ function removeFromFavourites(event){
 
     let favItems=[];
     favItems=JSON.parse(localStorage.getItem("favourites"));
-
+    // creating a new list to while removing the selected item
     let new_favourites=favItems.filter((id)=> id !== itemId);
 
     localStorage.setItem("favourites", JSON.stringify(new_favourites));
@@ -35,7 +35,7 @@ function displayFavourites(items){
         div.className="mx-3 my-3 fav-item";
 
         div.id=one.idMeal;
-
+        
         div.innerHTML=`
         <div id="item-image">
             <img src="${one.strMealThumb}" alt="food" id="image">
@@ -54,11 +54,12 @@ function displayFavourites(items){
 }
 
 
-// function to fetch the data from api of mealDB
+// function to fetch the data from api mealDB
 function fetchFavourites(){
 
     let favItems=localStorage.getItem("favourites");
 
+    // if the favourite list is empty below code navigates to the homepage
     if(favItems==='[]'){
 
         h2=document.createElement('h2');

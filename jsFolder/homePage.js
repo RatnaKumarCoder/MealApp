@@ -5,7 +5,7 @@ var search=document.getElementById("search");
 var recipe_detail=document.getElementById("recipe-details-block");
 
 
-// To fetch and render the items
+// To fetch and render the items from MealDB
 async function search_N_Display(){
     
     mealSection.innerHTML= "";
@@ -45,7 +45,7 @@ async function search_N_Display(){
 
 }
 
-// To add to favourites and keep that list persistent
+// To add to favourites and store those in local storage keep that list persistent
 function addToFavourites(event){
     
     if (!event.target.classList.contains("favourite-button")) {
@@ -90,6 +90,7 @@ function getRecipeDetails(event){
     fetch("https://www.themealdb.com/api/json/v1/1/lookup.php?i="+itemId).then((response)=>response.json()).then((data)=>{displayRecipeDetails(data.meals[0]); console.log(data);});
 }
 
+// function to display full details of a recipe from the data we got from getRecipeDetails() function
 function displayRecipeDetails(item){
 
     recipe_detail.innerHTML="";
