@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="cssFolder/homePage.css">
+    <title>Home Page</title>
+
+</head>
+<body>
+
+        <!-- nav bar -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid d-flex justify-content-between navi">
+          <h2>Meal APP</h2>
+          <form class="d-flex">
+            <input id="input-meal" class="form-control me-2" type="search" placeholder="Search For The Meal">
+            <div id="search" class="btn btn-outline-success" type="submit">Search</div>
+          </form>
+          <a href="FavouriteList.html" class="text-decoration-none fs-3 text-dark">Favourites</a>
+        </div>
+      </nav>
+
+    <div id="main-container" class="container-fluid">
+        <div id="meal-container" class="position-relative">
+            <h1 class="text-center text-capitalize text-light">Search Your Meals Using our Meal App</h1>
+            <div id="meal-section" class="d-flex justify-content-around flex-wrap mt-5">
+              <!-- sample code for each item bar -->
+              <!--  <div class="item-image">
+                      <img src="${one.strMealThumb}" alt="food" id="image">
+                    </div> 
+                    <div class="meal-name ms-1 mb-2">
+                      <h3 class="meal-heading text-wrap text-light">${one.strMeal}</h3>
+                      <p class="m-0 p-0 text-light">Type: ${one.strArea}</p>
+                      <p class="m-0 p-0 text-light">Category: ${one.strCategory}</p>
+                      <div id="recipe-details" type="submit" class="btn btn-sm  text-bg-dark recipe-button mx-1 my-2 text-light"> View Recipe Details </div>
+                    </div>
+                    <button id="favourite" type="submit" class="btn btn-sm btn-outline-primary favourite-button mx-2 my-2"> Add To Favourites </button> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- recipe block container -->
+    <div id="recipe-details-block">
+      <!-- sample of block in the container -->
+      <!-- <div class="recipe-image m-2">
+        <img src="${item.strMealThumb}" id="image"/>
+        </div>
+        <div class="recipe-text-container m-2">
+            <h2 class="text-light">${item.strMeal}</h2>
+            <h4 class="text-light">${item.strCategory}</h4>
+            <p class="text-light">${item.strInstructions}</p>
+        </div>
+        <div class="m-2">
+            <p><a href="${item.strSource}">For more details</a></p>
+            <p><a hres="${item.strYoutube}>Watch making video</a></p>
+            <div id="back-btn" type="submit" class="btn btn-sm  text-bg-dark back-button mx-2 text-light"> Back to homepage </div>
+        </div> -->
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="jsFolder/homePage.js"></script>
+</body>
+</html>

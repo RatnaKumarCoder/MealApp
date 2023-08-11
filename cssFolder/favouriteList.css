@@ -1,0 +1,52 @@
+/* #main-container */
+.main-container{
+    height: 100vh !important;
+    width: 100vw !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-image: url(https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+}
+
+/* #container where the items will be hosted */
+#favourite-container{
+    height: 89vh !important;
+    width: 100vw !important;
+    overflow-y: scroll;
+}
+
+/* styling elements each item in avourite container */
+
+/* each item div */
+#item{
+    height: 330px;
+    width: 300px;
+}
+
+.fav-item{
+    height: 330px !important;
+    width: 300px !important;
+}
+
+/* item image container */
+#item-image{
+    height: 180px !important;
+    width: 300px !important;
+}
+
+
+#image{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+/* #adding margin to each item */
+#favourite-container>div{
+    margin-bottom: 10px !important;
+    border: 1px solid white;
+}
+
+/* item-title */
+.meal-heading{
+    font-size: 18px;
+}
