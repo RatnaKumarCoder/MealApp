@@ -30,9 +30,9 @@ async function search_N_Display(){
                 <img src="${one.strMealThumb}" alt="food" id="image">
         </div> 
         <div class="meal-name ms-1 mb-2">
-            <h3 class="meal-heading text-wrap text-light">${one.strMeal}</h3>
-            <p class="m-0 p-0 text-light">Type: ${one.strArea}</p>
-            <p class="m-0 p-0 text-light">Category: ${one.strCategory}</p>
+            <p class="meal-heading text-wrap text-light">${one.strMeal}</p>
+            <p class="m-0 p-0 text-light fw-bold">Type: ${one.strArea}</p>
+            <p class="m-0 p-0 text-light fw-bold">Category: ${one.strCategory}</p>
             <div id="recipe-details" type="submit" class="btn btn-sm  text-bg-dark recipe-button  my-2 text-light"> View Recipe Details </div>
         </div>
         <button id="favourite" type="submit" class="btn btn-sm btn-outline-primary favourite-button mx-2 my-2"> Add To Favourites </button>

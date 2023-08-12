@@ -45,7 +45,10 @@ input[type="search"]{
 }
 
 .meal-heading{
-    font-size: 16px;
+    font-size: 16px !important;
+    font-family: sans-serif;
+    font-weight: 900 !important;
+    color: whitesmoke !important;
 }
 
 
@@ -101,9 +104,6 @@ input[type="search"]{
         font-size: 20px;
         font-weight: 700;
     }
-    .meal-name p{
-        font-weight: 500;
-    }
     #item{
         height: 430px !important;
         width: 350px !important;
@@ -138,6 +138,16 @@ input[type="search"]{
         width: 50vw !important;
         border-radius: 10px;
     }
+
+    .meal-heading{
+        font-size: 18px;
+        word-wrap: break-word;
+        width: 90% !important;
+        font-weight: 900;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
     .navi{
         display: flex !important;
         justify-content: center !important;
