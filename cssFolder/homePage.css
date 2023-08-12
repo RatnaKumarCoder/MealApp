@@ -27,9 +27,15 @@ input[type="search"]{
 }
 
 /* styles for each item of dishes */
+#item{
+    height: 430px !important;
+    width: 300px !important;
+    background-color: white;
+}
+
 .item-image{
-    height: 180px !important;
-    width: 240px !important;
+    height: 280px !important;
+    width: 300px !important;
 }
 
 #image{
@@ -46,9 +52,11 @@ input[type="search"]{
 
 .meal-heading{
     font-size: 16px !important;
-    font-family: sans-serif;
+    word-wrap: break-word;
+    width: 90% !important;
     font-weight: 900 !important;
-    color: whitesmoke !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 
@@ -71,10 +79,7 @@ input[type="search"]{
 }
 
 
-.recipe-text-container p{
-    font-size: 1rem;
-    text-align: justify;
-}
+
 
 .no-show-recipe{
     display: none !important;
@@ -100,10 +105,7 @@ input[type="search"]{
         height: 60vh !important;
         overflow-y: scroll;
     }
-    .meal-name h3{
-        font-size: 20px;
-        font-weight: 700;
-    }
+
     #item{
         height: 430px !important;
         width: 350px !important;
@@ -137,15 +139,14 @@ input[type="search"]{
         height: 35vh !important;
         width: 50vw !important;
         border-radius: 10px;
+        margin: 0px !important;
+        padding: 0 !important;
     }
 
     .meal-heading{
-        font-size: 18px;
-        word-wrap: break-word;
-        width: 90% !important;
+        font-size: 17px !important;
+        display: inline-block !important;
         font-weight: 900;
-        margin: 0 !important;
-        padding: 0 !important;
     }
 
     .navi{
