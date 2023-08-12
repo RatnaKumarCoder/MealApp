@@ -106,13 +106,13 @@ input[type="search"]{
     }
     #item{
         height: 430px !important;
-        width: 400px !important;
+        width: 350px !important;
         background-color: white;
     }
     
     .item-image{
         height: 320px !important;
-        width: 400px !important;
+        width: 350px !important;
     }
     
     #image{
