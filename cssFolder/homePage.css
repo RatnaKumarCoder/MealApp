@@ -79,8 +79,6 @@ input[type="search"]{
 }
 
 
-
-
 .no-show-recipe{
     display: none !important;
 }
@@ -139,7 +137,7 @@ input[type="search"]{
         height: 35vh !important;
         width: 50vw !important;
         border-radius: 10px;
-        margin: 0px !important;
+        margin: auto !important;
         padding: 0 !important;
     }
 
